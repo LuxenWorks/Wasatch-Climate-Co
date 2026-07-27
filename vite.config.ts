@@ -1,6 +1,3 @@
-// vite.config.ts — Wasatch Climate Co.
-// Clean, portable config for GitHub + Cloudflare Pages deployment.
-// No Manus-specific plugins. Works with any Node 18+ environment.
 import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
 import path from "node:path";
@@ -10,11 +7,10 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
-      "@": path.resolve(import.meta.dirname, "client", "src"),
+      "@": path.resolve(import.meta.dirname),
       "@shared": path.resolve(import.meta.dirname, "shared"),
     },
   },
-  root: path.resolve(import.meta.dirname, "client"),
   build: {
     outDir: path.resolve(import.meta.dirname, "dist"),
     emptyOutDir: true,
