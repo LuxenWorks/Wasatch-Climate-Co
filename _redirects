@@ -1,0 +1,4 @@
+# Cloudflare Pages — SPA client-side routing
+# All routes are handled by React (Wouter). This rule serves index.html
+# for every path so direct URL visits and refreshes work correctly.
+/*    /index.html   200
