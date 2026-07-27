@@ -4,7 +4,7 @@
  */
 import { useState } from "react";
 import { Phone, MapPin, Clock, Mail, CheckCircle } from "lucide-react";
-import Header from "@/components/Header";
+import Header from "./Header";
 import Footer from "@/components/Footer";
 
 export default function Contact() {
