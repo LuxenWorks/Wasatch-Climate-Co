@@ -5,7 +5,7 @@
 import { useState } from "react";
 import { Phone, MapPin, Clock, Mail, CheckCircle } from "lucide-react";
 import Header from "./Header";
-import Footer from "@/components/Footer";
+import Footer from "./Footer";
 
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
