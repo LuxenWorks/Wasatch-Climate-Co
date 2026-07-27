@@ -1,17 +1,17 @@
-import { Toaster } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import NotFound from "@/pages/NotFound";
+import { Toaster } from "./sonner";
+import { TooltipProvider } from "./tooltip";
+import NotFound from "./NotFound";
 import { Route, Switch } from "wouter";
-import ErrorBoundary from "./components/ErrorBoundary";
-import { ThemeProvider } from "./contexts/ThemeContext";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Services from "./pages/Services";
-import ServiceDetail from "./pages/ServiceDetail";
-import ServiceAreas from "./pages/ServiceAreas";
-import LocationDetail from "./pages/LocationDetail";
-import Blog from "./pages/Blog";
+import ErrorBoundary from "./ErrorBoundary";
+import { ThemeProvider } from "./ThemeContext";
+import Home from "./Home";
+import About from "./About";
+import Contact from "./Contact";
+import Services from "./Services";
+import ServiceDetail from "./ServiceDetail";
+import ServiceAreas from "./ServiceAreas";
+import LocationDetail from "./LocationDetail";
+import Blog from "./Blog";
 
 function Router() {
   return (
