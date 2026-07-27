@@ -4,7 +4,7 @@
  */
 import { ArrowRight, Clock, Tag } from "lucide-react";
 import { Link } from "wouter";
-import Header from "@/components/Header";
+import Header from "./Header";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
 
