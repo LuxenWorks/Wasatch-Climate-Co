@@ -6,7 +6,7 @@ import { Wind, Flame, Wrench, Leaf, Zap, Layers, Phone, ArrowRight } from "lucid
 import { Link } from "wouter";
 import Header from "./Header";
 import Footer from "./Footer";
-import CTASection from "@/components/CTASection";
+import CTASection from "./CTASection";
 
 const SERVICES = [
   {
