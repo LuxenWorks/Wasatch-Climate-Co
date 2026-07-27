@@ -5,7 +5,7 @@
 import { Phone, Shield, Award, Heart, CheckCircle, ArrowRight } from "lucide-react";
 import { Link } from "wouter";
 import Header from "./Header";
-import Footer from "@/components/Footer";
+import Footer from "./Footer";
 import CTASection from "./CTASection";
 
 const VALUES = [
