@@ -6,7 +6,7 @@ import { ArrowRight, Clock, Tag } from "lucide-react";
 import { Link } from "wouter";
 import Header from "./Header";
 import Footer from "./Footer";
-import CTASection from "@/components/CTASection";
+import CTASection from "./CTASection";
 
 const POSTS = [
   {
