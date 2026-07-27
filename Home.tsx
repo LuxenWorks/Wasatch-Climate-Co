@@ -16,9 +16,9 @@ import {
   Wind, Flame, Wrench, Leaf, ArrowRight, ChevronDown, ChevronUp,
   MapPin, Zap, TrendingUp, Users
 } from "lucide-react";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import CTASection from "@/components/CTASection";
+import Header from "./Header";
+import Footer from "./Footer";
+import CTASection from "./CTASection";
 
 const SERVICES = [
   {
