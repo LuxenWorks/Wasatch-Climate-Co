@@ -6,8 +6,8 @@ import { useParams } from "wouter";
 import { Phone, MapPin, CheckCircle, Star } from "lucide-react";
 import { Link } from "wouter";
 import Header from "./Header";
-import Footer from "@/components/Footer";
-import CTASection from "@/components/CTASection";
+import Footer from "./Footer";
+import CTASection from "./CTASection";
 
 const LOCATION_DATA: Record<string, {
   name: string;
