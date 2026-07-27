@@ -6,7 +6,7 @@ import { Phone, Shield, Award, Heart, CheckCircle, ArrowRight } from "lucide-rea
 import { Link } from "wouter";
 import Header from "./Header";
 import Footer from "@/components/Footer";
-import CTASection from "@/components/CTASection";
+import CTASection from "./CTASection";
 
 const VALUES = [
   {
